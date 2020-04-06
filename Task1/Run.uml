@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>by.gstu.runner.Run</OriginalElement>
+  <nodes>
+    <node x="-177.0" y="-96.0">by.gstu.models.typeWriters.JetPrinter</node>
+    <node x="120.0" y="-96.0">by.gstu.models.typeWriters.LedPrinter</node>
+    <node x="102.5" y="-254.0">by.gstu.models.TypeWriterLogic</node>
+    <node x="21.0" y="-22.0">by.gstu.controllers.PrintingShop</node>
+    <node x="-39.0" y="-96.0">by.gstu.models.typeWriters.ThreeDPrinter</node>
+    <node x="410.0" y="-96.0">by.gstu.models.typeWriters.MatrixPrinter</node>
+    <node x="95.5" y="-175.0">by.gstu.models.CreateTypeWriters</node>
+    <node x="-177.0" y="-22.0">by.gstu.models.ModelTypeWriter</node>
+    <node x="258.0" y="-96.0">by.gstu.models.typeWriters.LaserPrinter</node>
+    <node x="198.0" y="-22.0">by.gstu.runner.Run</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="by.gstu.models.typeWriters.JetPrinter" target="by.gstu.models.CreateTypeWriters">
+      <point x="0.0" y="-14.5" />
+      <point x="-118.0" y="-126.0" />
+      <point x="112.19999999999999" y="-126.0" />
+      <point x="-66.80000000000001" y="14.5" />
+    </edge>
+    <edge source="by.gstu.models.typeWriters.LedPrinter" target="by.gstu.models.CreateTypeWriters">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="by.gstu.models.CreateTypeWriters" target="by.gstu.models.TypeWriterLogic">
+      <point x="0.0" y="-14.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="by.gstu.models.typeWriters.ThreeDPrinter" target="by.gstu.models.CreateTypeWriters">
+      <point x="0.0" y="-14.5" />
+      <point x="30.5" y="-116.0" />
+      <point x="145.60000000000002" y="-116.0" />
+      <point x="-33.39999999999998" y="14.5" />
+    </edge>
+    <edge source="by.gstu.models.typeWriters.MatrixPrinter" target="by.gstu.models.CreateTypeWriters">
+      <point x="0.0" y="-14.5" />
+      <point x="479.5" y="-126.0" />
+      <point x="245.8" y="-126.0" />
+      <point x="66.80000000000001" y="14.5" />
+    </edge>
+    <edge source="by.gstu.models.typeWriters.LaserPrinter" target="by.gstu.models.CreateTypeWriters">
+      <point x="0.0" y="-14.5" />
+      <point x="324.0" y="-116.0" />
+      <point x="212.40000000000003" y="-116.0" />
+      <point x="33.400000000000034" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="249.5" y="14.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
