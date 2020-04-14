@@ -9,6 +9,6 @@ public class JetPrinter extends CreateTypeWriters {
     }
     @Override
     public void print() {
-        System.out.println("Был создан струйный принтер, который может выполнять сруйную печать");
+        System.out.println("Был создан струйный принтер, который может выполнять струйную печать");
     }
 }

@@ -16,7 +16,7 @@ public class PrintMenu {
         System.out.println("----------------------------");
     }
     public static void modelPrinter(){
-        System.out.println("-----------------------------");
+        System.out.println("------------------------------");
         System.out.println("|            MENU            |");
         System.out.println("------------------------------");
         System.out.println("| 1) Create LASER_PRINTER    |");

@@ -1,6 +1,5 @@
 package by.gstu.models;
 
-import by.gstu.models.typeWriters.*;
 import by.gstu.utils.classesError.SetModelPrinterError;
 import by.gstu.utils.classesError.SetNamePrinterError;
 
